@@ -24,3 +24,8 @@ The manager app is a management interface of "bamazon" that's capable of:
 
 ## See it in action:
 ![Manager app demo](/Screenshots/manager_demo.gif)
+
+# Technologies ultilized
+* MySQL
+* JavaScript
+* Node.js
