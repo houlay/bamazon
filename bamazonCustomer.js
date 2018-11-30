@@ -43,7 +43,7 @@ function getOrder() {
         message: "Please enter the ID of the product you'd like to purchasae:",
         //answer has to be an integer and can not be empty, and has to be within range (1-10)
         validate: function validateIdRange(id) {
-            return ((0 < id) && (id <= 10)) || "Please enter a valid product ID (1-10)";
+            return ((id % 1 === 0) && (0 < id) && (id <= 10)) || "Please enter a valid product ID (1-10)";
         }
     },
     {
