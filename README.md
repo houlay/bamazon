@@ -3,9 +3,9 @@
 "bamazon" is an amazon-like storefront node.js CLI application. It has the features of:
 * Query from a database and then display the results to console
 * Taking orders from user, and display the total cost
-** with user input validation
+  * with user input validation
 * Update the database with new quantity after an user order
-** with data validation
+  * with data validation
 
 ![bamazon app](/Screenshots/bamazon1.jpg)
 
