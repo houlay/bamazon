@@ -5,10 +5,10 @@ CREATE DATABASE bamazon;
 USE bamazon;
 
 CREATE TABLE products (
-    item_id INTEGER(100) NOT NULL AUTO_INCREMENT,
+    item_id INTEGER(10) NOT NULL AUTO_INCREMENT,
     product_name VARCHAR(50) NOT NULL,
     department_name VARCHAR(20) NOT NULL,
-    price DECIMAL(100,2) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
     stock_quantity INTEGER(200) NOT NULL,
     PRIMARY KEY (item_id)
 );
